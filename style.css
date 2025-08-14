@@ -1,0 +1,9 @@
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url(/Pic/pexels-igor-starkov-233202-1117452.jpg);
+    background-size: cover;
+}
