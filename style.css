@@ -1,3 +1,51 @@
+/* Make the entire page use a background image */
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background:
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)), /* optional dark overlay */
+    url("images/hero.jpg"); /* adjust path/file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed;  <-- optional (parallax-like on desktop) */
+  color: #000000; /* keep text readable on dark bg */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .hero {
   min-height: 60svh;
   display: grid;
@@ -22,6 +70,84 @@
 }
 .second a { color: #cde7ff; }
 .second { box-shadow: 0 10px 20px -12px rgba(255,255,255,0.22); }
+
+
+
+.section { padding: clamp(2rem, 6vw, 6rem) 1.25rem; }
+
+.founder {
+  background: #000;      /* black background like your mock */
+  color: #fff;
+  min-height: 70svh;     /* tall hero feel */
+  display: block;
+  padding: clamp(2rem, 6vw, 6rem) 1.25rem;
+}
+
+.founder__wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr min(42vw, 520px); /* text left, image right */
+  gap: clamp(1.5rem, 4vw, 3rem);
+}
+
+.founder__text { max-width: 48ch; }
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  font-size: .9rem;
+  opacity: .85;
+  margin: 0 0 .5rem;
+}
+
+.founder__name {
+  margin: 0 0 1rem;
+  line-height: 1.05;
+  font-weight: 800;
+  font-size: clamp(2rem, 3.5vw + 1rem, 4rem); /* big name */
+}
+
+.lead { opacity: .95; margin-bottom: 1rem; }
+
+/* image column */
+.founder__media {
+  justify-self: end;              /* push to the right edge */
+}
+.founder__media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  /* optional subtle lift so it pops from the black */
+  filter: drop-shadow(0 10px 30px rgba(0,0,0,.6));
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 900px) {
+  .founder__wrap {
+    grid-template-columns: 1fr;
+  }
+  .founder__media {
+    order: -1;            /* show image first on mobile (optional) */
+    justify-self: end;
+    max-width: 420px;     /* keep it reasonable */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .nine {
   min-height: 60svh;
