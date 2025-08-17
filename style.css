@@ -1,9 +1,112 @@
-html{
-    font-size: 60%;
-    overflow-x: hidden;
+.hero {
+  min-height: 60svh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 4rem 1rem;
 }
 
-body{
-    background-image: url(/Pic/pexels-igor-starkov-233202-1117452.jpg);
-    background-size: cover;
+#kniron-real-estate {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  min-height: 60svh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 4rem 1rem;
+}
+
+#kniron-real-estate {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  min-height: 60svh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 4rem 1rem;
+}
+
+#kniron-real-estate {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.hero {
+  min-height: 60svh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 4rem 1rem;
+}
+
+#kniron-real-estate {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.hero {
+  min-height: 60svh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 4rem 1rem;
+}
+
+#kniron-real-estate {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.hero {
+  min-height: 60svh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 4rem 1rem;
+}
+
+#kniron-real-estate {
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
