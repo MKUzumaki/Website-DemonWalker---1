@@ -10,13 +10,20 @@
 #kniron-real-estate {
   background:
     linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+    url("Pic/1.jpg"); /* ensure path/case match */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.hero {
+.second {
+  background: #000 !important;
+  color: #fff;
+}
+.second a { color: #cde7ff; }
+.second { box-shadow: 0 10px 20px -12px rgba(255,255,255,0.22); }
+
+.nine {
   min-height: 60svh;
   display: grid;
   place-items: center;
@@ -25,16 +32,24 @@
   padding: 4rem 1rem;
 }
 
-#kniron-real-estate {
+#nine {
   background:
     linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+    url("Pic/9.jpg"); /* ensure path/case match */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.hero {
+
+.eleven {
+  background: #000 !important;
+  color: #fff;
+}
+.eleven a { color: #cde7ff; }
+.eleven { box-shadow: 0 10px 20px -12px rgba(255,255,255,0.22); }
+
+.twelve {
   min-height: 60svh;
   display: grid;
   place-items: center;
@@ -43,18 +58,16 @@
   padding: 4rem 1rem;
 }
 
-#kniron-real-estate {
+#twelve {
   background:
     linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+    url("Pic/12.jpg"); /* ensure path/case match */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-
-
-.hero {
+.fourteen {
   min-height: 60svh;
   display: grid;
   place-items: center;
@@ -63,18 +76,16 @@
   padding: 4rem 1rem;
 }
 
-#kniron-real-estate {
+#fourteen {
   background:
     linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+    url("Pic/14.jpg"); /* ensure path/case match */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-
-
-.hero {
+.sixteen {
   min-height: 60svh;
   display: grid;
   place-items: center;
@@ -83,17 +94,16 @@
   padding: 4rem 1rem;
 }
 
-#kniron-real-estate {
+#sixteen {
   background:
     linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+    url("Pic/16.jpg"); /* ensure path/case match */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-
-.hero {
+.eitghtteen {
   min-height: 60svh;
   display: grid;
   place-items: center;
@@ -102,10 +112,10 @@
   padding: 4rem 1rem;
 }
 
-#kniron-real-estate {
+#eitghtteen {
   background:
     linear-gradient(to bottom, rgba(0,0,0,.35), rgba(0,0,0,.35)),
-    url("Pic/pexels-igor-starkov-233202-1117452.jpg"); /* ensure path/case match */
+    url("Pic/18.jpg"); /* ensure path/case match */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
